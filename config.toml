@@ -1,0 +1,11 @@
+siteTitle="GovHackMT"
+baseColor = "#244870"
+linkPrefix = "/gatsby-starter-documentation"
+docPages = [
+  "/docs/",
+  "/docs/saude/",
+  "/docs/contratos/",
+  "/docs/educacao/",
+  "/docs/seguranca-publica/",
+  "/docs/censo/",
+]
