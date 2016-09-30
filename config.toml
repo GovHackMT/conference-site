@@ -1,6 +1,6 @@
 siteTitle="GovHackMT"
 baseColor = "#244870"
-linkPrefix = "/gatsby-starter-documentation"
+linkPrefix = "/guia-desenvolvedor"
 docPages = [
   "/docs/",
   "/docs/saude/",

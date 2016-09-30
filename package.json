@@ -27,7 +27,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "develop": "gatsby develop",
-    "build": "gatsby build",
+    "build": "gatsby build --prefix-links",
     "deploy": "gatsby build --prefix-links && gh-pages -d public"
   }
 }
