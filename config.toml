@@ -1,6 +1,6 @@
 siteTitle="GovHackMT"
 baseColor = "#244870"
-linkPrefix = "/guia-desenvolvedor"
+linkPrefix = "/"
 docPages = [
   "/docs/",
   "/docs/saude/",
