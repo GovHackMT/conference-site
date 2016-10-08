@@ -1,5 +1,4 @@
-# gatsby-starter-documentation
-Starter for building documentation site with GatsbyJS
+# Site do GovHackMT
+Codigo fonte para o site do evento.
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new gatsby-documentation-site https://github.com/gatsbyjs/gatsby-starter-documentation`
+Este projeto utilza o [Gatsby](https://github.com/gatsbyjs/), então ele assume que você o tenha instalado para poder modificar o site. Mais instruções podem ser vistas [aqui](https://github.com/gatsbyjs/gatsby-starter-documentation).
