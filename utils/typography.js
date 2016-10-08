@@ -6,7 +6,7 @@ const options = {
   baseLineHeight: 1.5,
   bodyFontFamily: [
     '-apple-system',
-    'BlinkMacSystemFont',
+    'BlinkMacSystemFont',    
     'Segoe UI',
     'Roboto',
     'Oxygen',

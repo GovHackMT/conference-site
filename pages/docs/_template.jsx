@@ -42,53 +42,26 @@ module.exports = React.createClass({
     const docPages = childPages.map((child) => {
       const isActive = prefixLink(child.path) === this.props.location.pathname
       return (
-        <li
-          key={child.path}
-          style={{
-            marginBottom: rhythm(1/2),
-          }}
-        >
+        <li key={child.path}>
           <Link
             to={prefixLink(child.path)}
             style={{
               textDecoration: 'none',
-            }}
-          >
+            }}>
             {isActive ? <strong>{child.title}</strong> : child.title}
           </Link>
         </li>
       )
     })
     return (
-      <div>
-        <Breakpoint
-          mobile
-        >
-          <div
-            style={{
-              overflowY: 'auto',
-              paddingRight: `calc(${rhythm(1/2)} - 1px)`,
-              position: 'absolute',
-              width: `calc(${rhythm(8)} - 1px)`,
-              borderRight: '1px solid lightgrey',
-            }}
-          >
-            <ul
-              style={{
-                listStyle: 'none',
-                marginLeft: 0,
-                marginTop: rhythm(1/2),
-              }}
-            >
+      <section className="container">
+        <Breakpoint mobile>
+          <div className="col-md-2">
+            <ul style={{listStyle: 'none'}}>
               {docPages}
             </ul>
           </div>
-          <div
-            style={{
-              padding: `0 ${rhythm(1)}`,
-              paddingLeft: `calc(${rhythm(8)} + ${rhythm(1)})`,
-            }}
-          >
+          <div className="col-md-10">
             {this.props.children}
           </div>
         </Breakpoint>
@@ -97,15 +70,15 @@ module.exports = React.createClass({
           {' '}
           <select
             defaultValue={this.props.location.pathname}
-            onChange={this.handleTopicChange}
-          >
+            onChange={this.handleTopicChange}>
             {docOptions}
           </select>
-          <br />
-          <br />
-          {this.props.children}
-        </Breakpoint>
-      </div>
+          <br/>
+          <div className="container">
+            {this.props.children}
+          </div>
+        </Breakpoint>        
+      </section>
     )
   },
 })

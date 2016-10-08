@@ -7,14 +7,14 @@ class Breakpoint extends Component {
 
     if (mobile) {
       return (
-        <div className="breakpoint-min-width-700">
+        <div className="breakpoint-min-width-768">
           {children}
         </div>
       )
     }
 
     return (
-      <div className="breakpoint-max-width-700">
+      <div className="breakpoint-max-width-768">
         {children}
       </div>
     )

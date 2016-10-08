@@ -9,14 +9,23 @@ module.exports = React.createClass({
     }
   },
   render () {
-    const post = this.props.route.page.data
-
+    const post = this.props.route.page.data;
+    let Wrapper = (props) => {
+      return <section className="container">{props.children}</section>
+    };
+    let path = this.props.route.page.path;
+    if(path && path.indexOf('docs') > 0){
+      Wrapper = (props) => {
+        return <div className="container">{props.children}</div>
+      };
+    }
     return (
       <DocumentTitle title={`${post.title} | ${config.siteTitle}`}>
-        <div className="markdown">
-          <h1>{post.title}</h1>
+        <Wrapper>
+          <h3>{post.title}</h3>
+          <br/>
           <div dangerouslySetInnerHTML={{ __html: post.body }} />
-        </div>
+        </Wrapper>
       </DocumentTitle>
     )
   },

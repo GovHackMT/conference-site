@@ -1,16 +1,16 @@
-@media only screen and (min-width: 700px) {
-  .breakpoint-min-width-700 {
+@media only screen and (min-width: 768px) {
+  .breakpoint-min-width-768 {
     display: block;
   }
-  .breakpoint-max-width-700 {
+  .breakpoint-max-width-768 {
     display: none;
   }
 }
-@media only screen and (max-width: 700px) {
-  .breakpoint-min-width-700 {
+@media only screen and (max-width: 768px) {
+  .breakpoint-min-width-768 {
     display: none;
   }
-  .breakpoint-max-width-700 {
+  .breakpoint-max-width-768 {
     display: block;
   }
 }

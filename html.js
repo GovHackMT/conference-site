@@ -6,6 +6,8 @@ import { TypographyStyle, GoogleFont } from 'react-typography'
 import typography from './utils/typography'
 import { colors } from 'utils/colors'
 
+//require('bootstrap/dist/css/bootstrap.css');
+
 const BUILD_TIME = new Date().getTime()
 
 module.exports = React.createClass({
@@ -16,7 +18,7 @@ module.exports = React.createClass({
   render () {
     const title = DocumentTitle.rewind()
 
-    let css
+    let css;
     if (process.env.NODE_ENV === 'production') {
       css = <style dangerouslySetInnerHTML={{ __html: require('!raw!./public/styles.css') }} />
     }
@@ -34,36 +36,8 @@ module.exports = React.createClass({
           <TypographyStyle typography={typography} />
           <GoogleFont typography={typography} />
           {css}
-          <style
-            dangerouslySetInnerHTML={{
-              __html:
-                `
-                  a {
-                    color: ${colors.bg};
-                  }
-                  .ball-0 {
-                    background-image: url(${prefixLink('/docs/some-react-code/0.jpg')});
-                  }
-                  .ball-1 {
-                    background-image: url(${prefixLink('/docs/some-react-code/1.jpg')});
-                  }
-                  .ball-2 {
-                    background-image: url(${prefixLink('/docs/some-react-code/2.jpg')});
-                  }
-                  .ball-3 {
-                    background-image: url(${prefixLink('/docs/some-react-code/3.jpg')});
-                  }
-                  .ball-4 {
-                    background-image: url(${prefixLink('/docs/some-react-code/4.jpg')});
-                  }
-                  .ball-5 {
-                    background-image: url(${prefixLink('/docs/some-react-code/5.jpg')});
-                  }
-                `,
-            }}
-          />
         </head>
-        <body>
+        <body id="page-top" className="index">
           <div id="react-mount" dangerouslySetInnerHTML={{ __html: this.props.body }} />
           <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />
         </body>
