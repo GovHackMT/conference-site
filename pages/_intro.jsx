@@ -3,7 +3,7 @@ import React from 'react';
 module.exports = React.createClass({
   render() {
     return (
-      <section id="services">
+      <section id="services" className="bg-light-gray">
           <div className="container">
               <div className="row">
                   <div className="col-lg-12 text-center">

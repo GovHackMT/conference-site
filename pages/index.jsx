@@ -4,6 +4,7 @@ import { config } from 'config';
 
 import Header from './_header';
 import Intro from './_intro';
+import Schedule from './_schedule';
 import Mentors from './_mentors';
 import Partners from './_partners';
 
@@ -22,6 +23,7 @@ const IndexPage = React.createClass({
         <div>
           <Header/>
           <Intro/>
+          <Schedule/>
           <Mentors/>
           <Partners/>
           <section id="contact">

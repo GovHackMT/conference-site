@@ -426,6 +426,19 @@ section {
 }
 
 @media(min-width:768px) {
+  .timeline {
+    left: 20%;
+    max-width: 500px;
+  }
+}
+@media(min-width:992px) {
+  .timeline {
+    left: 30%;
+    max-width: 500px;
+  }
+}
+/*
+@media(min-width:768px) {
     .timeline {
         &:before {
             left: 50%;
@@ -504,7 +517,7 @@ section {
         }
     }
 }
-
+*/
 // Team Section
 
 .team-member {

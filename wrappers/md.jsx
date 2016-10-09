@@ -22,9 +22,9 @@ module.exports = React.createClass({
     return (
       <DocumentTitle title={`${post.title} | ${config.siteTitle}`}>
         <Wrapper>
-          <h3>{post.title}</h3>
+          <h2>{post.title}</h2>
           <br/>
-          <div dangerouslySetInnerHTML={{ __html: post.body }} />
+          <div className="col-md-8" dangerouslySetInnerHTML={{ __html: post.body }} />
         </Wrapper>
       </DocumentTitle>
     )

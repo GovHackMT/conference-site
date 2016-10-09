@@ -10,7 +10,7 @@ module.exports = React.createClass({
               GovHackMT
             </div>
             <div className="intro-lead-in">
-              Hackeando a burocracia,
+              Hackeando o governo,
               <br/>
               conectando cidadãos.
             </div>

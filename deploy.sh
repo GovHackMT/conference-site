@@ -7,6 +7,8 @@ npm run build
 
 # Go To Public folder
 cd public
+
+rm bundle.js.map
 # Add changes to git.
 git add -A
 

@@ -75,6 +75,13 @@ module.exports = React.createClass({
                         </li>
                         <li>
                           <Link
+                            to={prefixLink('/rules/')}
+                            onClick={() => this.closeMenu()}>
+                            Regras
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
                             to={prefixLink('/faq/')}
                             onClick={() => this.closeMenu()}>
                             FAQ
