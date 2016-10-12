@@ -8,11 +8,11 @@ module.exports = React.createClass({
               <div className="row">
                   <div className="col-lg-12 text-center">
                       <h2 className="section-heading">
-                        Hackathon com o tema de governo digital
+                        Hackeando o governo, conectando cidadãos
                       </h2>
                       <h3 className="section-subheading text-muted">
-                        O evento ocorre entres os dias 04 e 06 de novembro, no shopping Goiabeiras em Cuiabá-MT.
-                        O GovHack tem a proposta de unir desenvolvedores com o objetivo de construir algo incrível que melhore os serviços públicos e a vida dos cidadãos.
+                        Idealizado pelo DevMT (Comunidade de desenvolvedores de MT), o Hackathon, em sua 1a edicao, e uma iniciativa para ajudar a implantar novas ideias e solucoes na plataforma digital.
+                        Entre os dias 04 e 06 de Novembro, programadores, designers e profissionais ligados ao desenvolvimento de softwares se reunirao para uma maratona de palestras, brainstormings, mentorias e avaliacoes de projetos e muito CODING!
                       </h3>
                   </div>
               </div>

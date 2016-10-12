@@ -4,7 +4,7 @@ const mentors = [
   {
     name: 'Joselito Junior',
     about: 'GDG Recife',
-    img: '',
+    img: require('../css/img/mentors/joselito.jpeg'),
   },
   {
     name: 'Wagner Marcelo',
