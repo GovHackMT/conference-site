@@ -1,8 +1,9 @@
 import React from 'react';
 
 const entries = [
+  { time: (<span>Pré<br/>evento</span>), name: '04/11 Sexta', desc: 'Esquenta do evento com palestras técnicas e muito networking.' },
   { time: 'Primeiro dia do evento', name: '05/11 Sábado' },
-  { time: '08:00' , name: 'Credenciamento <br/> Breakfast of Champions' },
+  { time: '08:00' , name: 'Credenciamento / Breakfast of Champions' },
   { time: '09:30' , name: 'Abertura', desc: 'Cerimonia de Abertura e Talks dos patrocinadores' },
   { time: '10:00' , name: 'Keynote', desc: 'Keynote sobre Governo Digital e painel com desafios envolta do assunto.' },
   { time: '10:40' , name: 'Apresentação das Ferramentas', desc: 'APIs, databases, github e demais ferramentas disponíveis aos participantes.' },

@@ -6,7 +6,8 @@ module.exports = React.createClass({
       <header>
         <div className="container">
           <div className="intro-text">
-            {/*<div className="intro-heading">
+            {/*
+            <div className="intro-heading">
               GovHackMT
             </div>
             <div className="intro-lead-in">

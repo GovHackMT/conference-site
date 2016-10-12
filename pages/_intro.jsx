@@ -12,7 +12,7 @@ module.exports = React.createClass({
                       </h2>
                       <h3 className="section-subheading text-muted">
                         O evento ocorre entres os dias 04 e 06 de novembro, no shopping Goiabeiras em Cuiabá-MT.
-                        Programadores e profissionais ligados ao desenvolvimento de softwares se reunirão para uma maratona de palestras, brainstormings, mentorias e avaliações dos projetos construídos.
+                        O GovHack tem a proposta de unir desenvolvedores com o objetivo de construir algo incrível que melhore os serviços públicos e a vida dos cidadãos.
                       </h3>
                   </div>
               </div>
@@ -24,8 +24,7 @@ module.exports = React.createClass({
                       </span>
                       <h4 className="service-heading">Hackathon</h4>
                       <p className="text-muted">
-                        24 horas de programação, criatividade e muit café.
-                        Uma idéia bem construída é o começo de todo bom negócio
+                        O Hackathon é um evento que reúne programadores, designers e outros profissionais ligados ao desenvolvimento para uma insana jornada para criar, inovar e construir softwares e hardwares em 24 horas sem parar.
                       </p>
                   </div>
                   <div className="col-md-4">

@@ -3,6 +3,11 @@
 
 // Global Components
 
+@font-face {
+    font-family: SF Pixelate Bold;
+    src: url('../SF Pixelate Bold.ttf');
+}
+
 body {
     overflow-x: hidden;
     @include body-font;
@@ -168,6 +173,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     background-image: url('../img/header.gif');
+    //background-image: url('../img/header-bg.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -177,7 +183,7 @@ header {
     color: white;
     margin-top: 20px;
     .intro-text {
-        padding-top: 220px;
+        //padding-top: 220px;
         padding-bottom: 20px;
         .intro-lead-in {
             @include serif-font;
