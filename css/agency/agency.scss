@@ -167,16 +167,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    background-image: url('../img/header-bg.jpg');
+    background-image: url('../img/header.gif');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
-    @include background-cover;
+    //@include background-cover;
+    background-color: #222222;
     text-align: center;
     color: white;
+    margin-top: 20px;
     .intro-text {
-        padding-top: 100px;
-        padding-bottom: 50px;
+        padding-top: 220px;
+        padding-bottom: 20px;
         .intro-lead-in {
             @include serif-font;
             font-style: italic;
@@ -196,9 +198,11 @@ header {
 
 @media(min-width:768px) {
     header {
+        margin-top: 60px;
+        @include background-cover;
         .intro-text {
-            padding-top: 300px;
-            padding-bottom: 200px;
+            padding-top: 450px;
+            padding-bottom: 40px;
             .intro-lead-in {
                 @include serif-font;
                 font-style: italic;
@@ -215,6 +219,16 @@ header {
             }
         }
     }
+}
+
+@media(min-width: 1400px){
+  header {
+    margin-top: 75px;
+    .intro-text{
+      padding-top: 120px;
+      margin-top: 450px;
+    }
+  }
 }
 
 // Global Section Styles

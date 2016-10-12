@@ -66,6 +66,7 @@ module.exports = React.createClass({
                         <li className="hidden">
                             <a href="#page-top"></a>
                         </li>
+                        {/*
                         <li>
                           <Link
                             to={prefixLink('/docs/')}
@@ -73,6 +74,7 @@ module.exports = React.createClass({
                             Guia do Desenvolvedor
                           </Link>
                         </li>
+                        */}
                         <li>
                           <Link
                             to={prefixLink('/rules/')}
