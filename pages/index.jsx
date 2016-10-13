@@ -12,14 +12,14 @@ const IndexPage = React.createClass({
   statics: {
     metadata () {
       return {
-        title: 'GovHackMT: O primeiro Hackathon do Estado de Mato Grosso',
+        title: 'O primeiro Hackathon do Estado de Mato Grosso',
       }
     },
   },
 
   render () {
     return (
-      <DocumentTitle title={`${IndexPage.metadata().title} | ${config.siteTitle}`}>
+      <DocumentTitle title={`${config.siteTitle} | ${IndexPage.metadata().title}`}>
         <div>
           <Header/>
           <Intro/>
@@ -34,7 +34,7 @@ const IndexPage = React.createClass({
                             Seja um patrocinador
                           </h2>
                           <h3 className="section-subheading text-muted">
-                            <a href="https://raw.githubusercontent.com/GovHackMT/guia-desenvolvedor/master/mediakit.pdf" target="_blank">
+                            <a href="https://docs.google.com/presentation/d/1FRVsNyjI9u_53beTwD3ci9UcsfNZZblfTeWx4XPujxQ/export/pdf" target="_blank">
                               Baixe nossa proposta de patrocínio.
                             </a>
                           </h3>

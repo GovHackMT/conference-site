@@ -20,7 +20,7 @@ module.exports = React.createClass({
       };
     }
     return (
-      <DocumentTitle title={`${post.title} | ${config.siteTitle}`}>
+      <DocumentTitle title={`${config.siteTitle} | ${post.title}`}>
         <Wrapper>
           <h2>{post.title}</h2>
           <br/>

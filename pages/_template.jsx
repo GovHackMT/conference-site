@@ -46,7 +46,7 @@ module.exports = React.createClass({
     return (
       <div id="page-wrapper">
         <nav id="mainNav" className="navbar navbar-default navbar-custom navbar-fixed-top affix">
-            <div className="container">                
+            <div className="container">
                 <div className="navbar-header page-scroll">
                     <button type="button" className="navbar-toggle" onClick={() => this.toggleMenu()}>
                         <span className="sr-only">
@@ -91,6 +91,7 @@ module.exports = React.createClass({
                         </li>
                         <li>
                           <a href="https://github.com/GovHackMT" target="_blank">
+                            <i className="fa fa-github"></i>
                             Github
                           </a>
                         </li>
@@ -108,7 +109,10 @@ module.exports = React.createClass({
                     <div className="col-md-4">
                         <ul className="list-inline social-buttons">
                             <li>
-                              <a href="#"><i className="fa fa-facebook"></i></a>
+                              <a href="https://www.facebook.com/govhackmt/" target="_blank"><i className="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                              <a href="https://www.github.com/govhackmt/" target="_blank"><i className="fa fa-github"></i></a>
                             </li>
                             {/*
                             <li>
@@ -122,10 +126,18 @@ module.exports = React.createClass({
                     </div>
                     <div className="col-md-4">
                         <ul className="list-inline quicklinks">
-                            <li><a href="#">Privacy Policy</a>
-                            </li>
-                            <li><a href="#">Terms of Use</a>
-                            </li>
+                          <li>
+                            <Link
+                              to={prefixLink('/rules/')}>
+                              Regras
+                            </Link>
+                          </li>
+                          <li>
+                            <Link
+                              to={prefixLink('/faq/')}>
+                              FAQ
+                            </Link>
+                          </li>
                         </ul>
                     </div>
                 </div>

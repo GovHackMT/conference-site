@@ -12,8 +12,21 @@ module.exports = React.createClass({
                         Hackeando o governo
                       </h2>
                       <h3 className="section-subheading text-muted">
-                        Idealizado pelo DevMT (Comunidade de desenvolvedores de MT), o Hackathon, em sua 1ª edição, é uma iniciativa para ajudar a implantar novas idéias e solucoes na plataforma digital.
-                        Entre os dias 04 e 06 de Novembro, programadores, designers e profissionais ligados ao desenvolvimento de softwares se reunirão para uma maratona de palestras, brainstormings, mentorias e avaliações de projetos e muito CODING!
+                        Para acelerar o desenvolvimento de solucoes inovadoras,
+                        rompendo as barreiras burocráticas e conectando o governo
+                        com o cidadão o GovHackMT 2016 reune equipes multidisciplinares
+                        para desenvolver soluções com objetivo de aproximar a
+                        máquina pública da imersão dinâmica e objetiva de um hackathon,
+                        com a meta de desenvolver soluções práticas para resolver
+                        problemas comuns a todos cidadãos, promovendo assim a
+                        conexão entre governo e sociedade.
+                      </h3>
+                      <h3 className="section-subheading text-muted">
+                        O hackathon é idealizado pela comunidade de desenvolvedores
+                        de Mato Grosso e conta com a co-realização do Governo do
+                        Estado, através da Empresa Matogrossense de Tecnologia (MTI),
+                        Gabinete de Assuntos Estratégicos (GAE) e da Secretaria de
+                        Estado de Planejamento.
                       </h3>
                   </div>
               </div>
