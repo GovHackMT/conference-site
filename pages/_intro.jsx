@@ -7,8 +7,9 @@ module.exports = React.createClass({
           <div className="container">
               <div className="row">
                   <div className="col-lg-12 text-center">
+                      <img src={require('../css/img/logos/logo.png')} height={240} alt="GovHackMT logo"/>
                       <h2 className="section-heading">
-                        Hackeando o governo, conectando cidadãos
+                        Hackeando o governo
                       </h2>
                       <h3 className="section-subheading text-muted">
                         Idealizado pelo DevMT (Comunidade de desenvolvedores de MT), o Hackathon, em sua 1a edicao, e uma iniciativa para ajudar a implantar novas ideias e solucoes na plataforma digital.
@@ -34,7 +35,7 @@ module.exports = React.createClass({
                       </span>
                       <h4 className="service-heading">Governo Digital</h4>
                       <p className="text-muted">
-                        O tema deste ano é Governo Digital: Soluções que auxiliem o governo e a sociedade a se comunicarem.
+                        Soluções que auxiliem o governo e a sociedade a se comunicarem.
                       </p>
                   </div>
                   <div className="col-md-4">

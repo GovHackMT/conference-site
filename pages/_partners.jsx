@@ -31,6 +31,17 @@ module.exports = React.createClass({
                       </div>
                     );
                   })}
+                  <div className="row">
+                      <div className="col-lg-12 text-center">
+                          <h3 className="section-subheading large text-muted">
+                            Seja um patrocinador do evento. <a
+                            href="https://raw.githubusercontent.com/GovHackMT/guia-desenvolvedor/master/mediakit.pdf"
+                            target="_blank">
+                              Aqui está nosso mediakit.
+                            </a>
+                          </h3>
+                      </div>
+                  </div>
               </div>
           </div>
       </aside>

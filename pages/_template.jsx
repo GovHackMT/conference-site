@@ -46,7 +46,7 @@ module.exports = React.createClass({
     return (
       <div id="page-wrapper">
         <nav id="mainNav" className="navbar navbar-default navbar-custom navbar-fixed-top affix">
-            <div className="container">
+            <div className="container">                
                 <div className="navbar-header page-scroll">
                     <button type="button" className="navbar-toggle" onClick={() => this.toggleMenu()}>
                         <span className="sr-only">
@@ -88,6 +88,11 @@ module.exports = React.createClass({
                             onClick={() => this.closeMenu()}>
                             FAQ
                           </Link>
+                        </li>
+                        <li>
+                          <a href="https://github.com/GovHackMT" target="_blank">
+                            Github
+                          </a>
                         </li>
                     </ul>
                 </div>

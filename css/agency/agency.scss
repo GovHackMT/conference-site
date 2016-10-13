@@ -183,7 +183,7 @@ header {
     color: white;
     margin-top: 20px;
     .intro-text {
-        //padding-top: 220px;
+        padding-top: 220px;
         padding-bottom: 20px;
         .intro-lead-in {
             @include serif-font;
@@ -250,7 +250,7 @@ section {
         font-size: 16px;
         @include serif-font;
         text-transform: none;
-        font-style: italic;
+        //font-style: italic;
         font-weight: 400;
         margin-bottom: 75px;
     }
@@ -811,7 +811,7 @@ img::-moz-selection {
 .img-mentor {
   height: 120px;
   width: 120px;
-  border-color: $theme-primary !important;  
+  border-color: $theme-primary !important;
 }
 
 body {
