@@ -9,14 +9,25 @@ const mentors = [
   {
     name: 'Wagner Marcelo',
     about: 'Guia Hacker',
-    img: '',
+    img: require('../css/img/mentors/wagner.jpg'),
   },
   {
     name: 'Mahmoud Ali',
     about: 'Lambda3',
-    img: '',
+    img: require('../css/img/mentors/akamud.jpg'),
   }
 ];
+
+let dummy = {
+  name: 'Em breve',
+  about: 'fsociety',
+  img: require('../css/img/mentors/fsociety.jpg')
+}
+
+
+for(let i = mentors.length; i < 8;i++){
+  mentors.push({id: i, ...dummy });
+}
 
 module.exports = React.createClass({
   render() {
@@ -30,13 +41,14 @@ module.exports = React.createClass({
                   </div>
               </div>
               <div className="row">
-                  {mentors.map( mentor => {
+                  {mentors.map( (mentor,idx) => {
                     return (
-                      <div className="col-sm-4" key={mentor.name}>
+                      <div className="col-sm-3" key={idx}>
                           <div className="team-member">
-                              <img src={mentor.img} className="img-responsive img-circle" alt=""/>
+                              <img src={mentor.img} className="img-responsive img-circle img-mentor" alt=""/>
                               <h4>{mentor.name}</h4>
                               <p className="text-muted">{mentor.about}</p>
+                              {/*
                               <ul className="list-inline social-buttons">
                                   <li><a href="#"><i className="fa fa-twitter"></i></a>
                                   </li>
@@ -45,6 +57,7 @@ module.exports = React.createClass({
                                   <li><a href="#"><i className="fa fa-linkedin"></i></a>
                                   </li>
                               </ul>
+                              */}
                           </div>
                       </div>
                     )

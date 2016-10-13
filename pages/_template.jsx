@@ -102,12 +102,17 @@ module.exports = React.createClass({
                     </div>
                     <div className="col-md-4">
                         <ul className="list-inline social-buttons">
-                            <li><a href="#"><i className="fa fa-twitter"></i></a>
+                            <li>
+                              <a href="#"><i className="fa fa-facebook"></i></a>
                             </li>
-                            <li><a href="#"><i className="fa fa-facebook"></i></a>
+                            {/*
+                            <li>
+                              <a href="#"><i className="fa fa-twitter"></i></a>
                             </li>
-                            <li><a href="#"><i className="fa fa-linkedin"></i></a>
+                            <li>
+                              <a href="#"><i className="fa fa-linkedin"></i></a>
                             </li>
+                            */}
                         </ul>
                     </div>
                     <div className="col-md-4">
@@ -121,104 +126,6 @@ module.exports = React.createClass({
                 </div>
             </div>
         </footer>
-        {/*
-        <div
-          style={{
-            background: colors.bg,
-            color: colors.fg,
-            marginBottom: rhythm(1.5),
-          }}
-        >
-          <Container
-            style={{
-              maxWidth: 960,
-              paddingLeft: rhythm(3/4),
-            }}
-          >
-            <Grid
-              columns={12}
-              style={{
-                padding: `${rhythm(3/4)} 0`,
-              }}
-            >
-              <Span
-                columns={4}
-                style={{
-                  height: 24, // Ugly hack. How better to constrain height of div?
-                }}
-              >
-                <Link
-                  to={prefixLink('/')}
-                  style={{
-                    textDecoration: 'none',
-                    color: colors.fg,
-                    fontSize: adjustFontSizeTo('25.5px').fontSize,
-                  }}
-                >
-                  {config.siteTitle}
-                </Link>
-              </Span>
-              <Span columns={8} last>
-                <a
-                  style={{
-                    float: 'right',
-                    color: colors.fg,
-                    textDecoration: 'none',
-                    marginLeft: rhythm(1/2),
-                  }}
-                  href="https://github.com/GovHackMT/GovHackMT.github.io"
-                >
-                  Github
-                </a>
-                {/*
-                <Link
-                  to={prefixLink('/examples/')}
-                  style={{
-                    background: examplesActive ? activeColors.bg : colors.bg,
-                    color: examplesActive ? activeColors.fg : colors.fg,
-                    float: 'right',
-                    textDecoration: 'none',
-                    paddingLeft: rhythm(1/2),
-                    paddingRight: rhythm(1/2),
-                    paddingBottom: rhythm(3/4),
-                    marginBottom: rhythm(-1),
-                    paddingTop: rhythm(1),
-                    marginTop: rhythm(-1),
-                  }}>
-                  Exemplos
-                </Link>
-                */}
-                {/*}
-                <Link
-                  to={prefixLink('/docs/')}
-                  style={{
-                    background: docsActive ? activeColors.bg : colors.bg,
-                    color: docsActive ? activeColors.fg : colors.fg,
-                    float: 'right',
-                    textDecoration: 'none',
-                    paddingLeft: rhythm(1/2),
-                    paddingRight: rhythm(1/2),
-                    paddingBottom: rhythm(3/4),
-                    marginBottom: rhythm(-1),
-                    paddingTop: rhythm(1),
-                    marginTop: rhythm(-1),
-                  }}
-                >
-                  Documentação e APIs
-                </Link>
-              </Span>
-            </Grid>
-          </Container>
-        </div>
-
-        <Container
-          style={{
-            maxWidth: 960,
-            padding: `${rhythm(1)} ${rhythm(3/4)}`,
-            paddingTop: 0,
-          }}>
-        </Container>
-        */}
       </div>
     )
   },

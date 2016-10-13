@@ -12,7 +12,7 @@ const IndexPage = React.createClass({
   statics: {
     metadata () {
       return {
-        title: 'HackGovMT: O primeiro Hackathon do Estado de Mato Grosso',
+        title: 'GovHackMT: O primeiro Hackathon do Estado de Mato Grosso',
       }
     },
   },
