@@ -12,8 +12,8 @@ module.exports = React.createClass({
                         Hackeando o governo
                       </h2>
                       <h3 className="section-subheading text-muted">
-                        Idealizado pelo DevMT (Comunidade de desenvolvedores de MT), o Hackathon, em sua 1a edicao, e uma iniciativa para ajudar a implantar novas ideias e solucoes na plataforma digital.
-                        Entre os dias 04 e 06 de Novembro, programadores, designers e profissionais ligados ao desenvolvimento de softwares se reunirao para uma maratona de palestras, brainstormings, mentorias e avaliacoes de projetos e muito CODING!
+                        Idealizado pelo DevMT (Comunidade de desenvolvedores de MT), o Hackathon, em sua 1ª edição, é uma iniciativa para ajudar a implantar novas idéias e solucoes na plataforma digital.
+                        Entre os dias 04 e 06 de Novembro, programadores, designers e profissionais ligados ao desenvolvimento de softwares se reunirão para uma maratona de palestras, brainstormings, mentorias e avaliações de projetos e muito CODING!
                       </h3>
                   </div>
               </div>

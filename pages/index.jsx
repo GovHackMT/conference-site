@@ -30,9 +30,13 @@ const IndexPage = React.createClass({
               <div className="container">
                   <div className="row">
                       <div className="col-lg-12 text-center">
-                          <h2 className="section-heading">Sobre o evento</h2>
+                          <h2 className="section-heading">
+                            Seja um patrocinador
+                          </h2>
                           <h3 className="section-subheading text-muted">
-                            Idealizado pela comunidade de desenvolvedores DevMT e pelo Gabinete de Assuntos Estratégicos (GAE).
+                            <a href="https://raw.githubusercontent.com/GovHackMT/guia-desenvolvedor/master/mediakit.pdf" target="_blank">
+                              Baixe nossa proposta de patrocínio.
+                            </a>
                           </h3>
                       </div>
                   </div>
