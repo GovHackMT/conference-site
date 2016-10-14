@@ -2,32 +2,34 @@ import React from 'react';
 
 const entries = [
   {
-    name: 'Pré evento',
-    entries: [
-      { time: (<span>Pré<br/>evento</span>), name: '04/11 Sexta', desc: 'Esquenta do evento com palestras técnicas e muito networking.' },
-    ],
-  },
-  {
     name: 'Primeiro dia',
     entries: [
-      { time: 'Primeiro dia do evento', name: '05/11 Sábado' },
-      { time: '08:00' , name: 'Credenciamento / Breakfast of Champions' },
-      { time: '09:30' , name: 'Abertura', desc: 'Cerimonia de Abertura e Talks dos patrocinadores' },
-      { time: '10:00' , name: 'Keynote', desc: 'Keynote sobre Governo Digital e painel com desafios envolta do assunto.' },
-      { time: '10:40' , name: 'Apresentação das Ferramentas', desc: 'APIs, databases, github e demais ferramentas disponíveis aos participantes.' },
-      { time: '11:20' , name: 'Formação das Equipes' },
-      { time: '12:00' , name: 'Codificação Begins', desc: 'Start no Cronômetro' },
-      { time: '13:00' , name: 'Almoço' },
-      { time: '19:00' , name: 'Jantar' },
+      { time: 'Primeiro dia de evento', name: '04/11 Sexta'},
+      { time: '19:00' , name: 'Credenciamento e Coffe Break' },
+      { time: '20:00' , name: 'Abertura', desc: 'Cerimonia de Abertura e Talks dos patrocinadores' },
+      { time: '20:20' , name: 'Painel de desafios', desc: 'Desafios apresentados por órgãos públicos locais.' },
+      { time: '20:50' , name: 'Apresentação das Ferramentas', desc: 'APIs, databases, github e demais ferramentas disponíveis aos participantes.' },
+      { time: '21:00' , name: 'Formação das Equipes' },
+      { time: '21:30' , name: 'Palestra' },
     ],
   },
   {
     name: 'Segundo dia',
     entries: [
-      { time: 'Segundo dia de evento', name: '06/11 Domingo' },
-      { time: '8:00', name: 'Café da manhã' },
-      { time: '12:00', name: 'Almoço' },
-      { time: '13:00', name: 'Codificação Termina', desc: 'Stop no cronômetro e submissões dos codes ao GitHub do evento!' },
+      { time: 'Segundo dia de evento', name: '05/11 Sábado' },
+      { time: '08:00' , name: 'Abertura com palestras' },
+      { time: '08:30' , name: 'Codificação Begins', desc: 'Start no Cronômetro' },
+      { time: '13:00' , name: 'Almoço' },
+      { time: '19:00' , name: 'Jantar' },
+    ],
+  },
+  {
+    name: 'Terceiro dia',
+    entries: [
+      { time: 'Terceiro dia de evento', name: '06/11 Domingo' },
+      { time: '8:00', name: 'Breakfast of Champions' },
+      { time: '12:00', name: 'Codificação Termina', desc: 'Stop no cronômetro e submissões dos códigos ao GitHub do evento!' },
+      { time: '13:00', name: 'Almoço' },
       { time: '14:00', name: 'Apresentação das Demos', desc: 'Demos apenas / Sem conjuntos de slides se a sua demo não funcionar,apresentar o código e mostrar onde ficou parado. Trata-se de mostrar o que você aprendeu e não sobre o lançamento de uma idéia' },
       { time: '16:00', name: 'Prizathon!', desc: 'Vencedores são anunciados.' }
     ]
@@ -38,7 +40,7 @@ module.exports = React.createClass({
 
   getInitialState(){
     return {
-      tab: 1
+      tab: 0
     };
   },
 

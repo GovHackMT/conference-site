@@ -3,6 +3,12 @@ title: Regras
 ---
 Sabemos que algumas regras são feitas para serem quebradas, mas você provavelmente deve se atentar nestas:
 
+### Habilidades necessárias
+
+É importante ter experiência prévia com desenvolvimento, ferramentas de versionamento e web services.
+Com o formato do evento infelizmente não dá tempo de aprender tudo do zero e precisamos que
+soluções minimamente funcionais sejam criadas ao durante o evento.
+
 #### Código fresco
 
 Todos nós começamos a codificar, ao mesmo tempo. Isto é feito para manter as coisas justas;

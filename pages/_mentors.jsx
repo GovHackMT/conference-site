@@ -2,19 +2,29 @@ import React from 'react';
 
 const mentors = [
   {
-    name: 'Joselito Junior',
-    about: 'GDG Recife',
+    name: 'Joselito Júnior',
+    about: 'Tampa / GDG Recife',
     img: require('../css/img/mentors/joselito.jpeg'),
   },
   {
     name: 'Wagner Marcelo',
-    about: 'Guia Hacker',
+    about: 'Coordenador do grupo de Startups da PUC-SP e Sócio do Guia do Hacker',
     img: require('../css/img/mentors/wagner.jpg'),
   },
   {
     name: 'Mahmoud Ali',
     about: 'Lambda3',
     img: require('../css/img/mentors/akamud.jpg'),
+  },
+  {
+    name: 'Gabriel Pedro',
+    about: 'RCF Inovações / DevMT',
+    img: require('../css/img/mentors/gpedro.jpg'),
+  },
+  {
+    name: 'Dhyego Fernando',
+    about: 'Código5 / DevMT',
+    img: require('../css/img/mentors/dhyego.jpg'),
   }
 ];
 
@@ -25,7 +35,7 @@ let dummy = {
 }
 
 
-for(let i = mentors.length; i < 8;i++){
+for(let i = mentors.length; i < 9;i++){
   mentors.push({id: i, ...dummy });
 }
 
@@ -43,8 +53,8 @@ module.exports = React.createClass({
               <div className="row">
                   {mentors.map( (mentor,idx) => {
                     return (
-                      <div className="col-sm-3" key={idx}>
-                          <div className="team-member">
+                      <div className="col-sm-4" key={idx}>
+                          <div className="team-member" style={{minHeight: 240}}>
                               <img src={mentor.img} className="img-responsive img-circle img-mentor" alt=""/>
                               <h4>{mentor.name}</h4>
                               <p className="text-muted">{mentor.about}</p>

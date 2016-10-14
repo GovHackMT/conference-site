@@ -18,7 +18,7 @@ const partners = [
     ]
   },
   {
-    name: 'Patrocinadores',
+    name: 'Parceiros',
     height: 60,
     entries: [
       { img: require('../css/img/logos/goibeiras.png') },

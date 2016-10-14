@@ -8,7 +8,7 @@ Nós geralmente gostaríamos de ver projetos que sejam inovadores, com o potenci
 Nós sabemos o quanto você consegue fazer em 24 horas, mas tudo bem se seu projeto não estiver perfeito (ainda).
 
 #### Quem pode participar?
-Qualquer um e todos! Nossos participantes tipicamente consistem de desenvolvedores junior que procuram melhorar suas habilidades, desenvolvedores seniores que procuram expandir os seus horizontes, designers de todos os conjuntos de habilidades e empresários sérios que possam agregar valor às equipes. Traga a sua ideia e vamos lá!
+Nossos participantes tipicamente consistem de desenvolvedores junior que procuram melhorar suas habilidades a desenvolvedores seniores que procuram expandir os seus horizontes. Traga a sua ideia e vamos lá!
 
 #### Como serão julgados?
 Vamos ser honestos, todos vocês podem fazer melhor do que meros Powerpoints!
