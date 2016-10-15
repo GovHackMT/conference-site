@@ -23,7 +23,7 @@ const partners = [
     entries: [
       { img: require('../css/img/logos/goibeiras.png') },
       { img: require('../css/img/logos/sebrae.png') },
-      { img: require('../css/img/logos/unirondom.png') },
+      { img: require('../css/img/logos/univag.png') },
     ]
   }
 ];

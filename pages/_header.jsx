@@ -16,7 +16,7 @@ module.exports = React.createClass({
               conectando cidadãos.
             </div>
             */}
-            <a href="#" className="page-scroll btn btn-xl">
+            <a href="https://www.sympla.com.br/govhackmt---novembro-2016__95411" target="_blank" className="page-scroll btn btn-xl">
               Inscreva-se
             </a>
           </div>
