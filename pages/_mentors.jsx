@@ -13,7 +13,7 @@ const mentors = [
   },
   {
     name: 'Mahmoud Ali',
-    about: 'Lambda3',
+    about: 'Lambda3 / DevMT',
     img: require('../css/img/mentors/akamud.jpg'),
   },
   {
@@ -25,6 +25,16 @@ const mentors = [
     name: 'Dhyego Fernando',
     about: 'Código5 / DevMT',
     img: require('../css/img/mentors/dhyego.jpg'),
+  },
+  {
+    name: 'Luan Castro',
+    about: 'Tribunal de Justiça de Mato Grosso',
+    img: require('../css/img/mentors/castrolol.jpg'),
+  },
+  {
+    name: 'Henrique Ribeiro',
+    about: 'Tribunal de Justiça de Mato Grosso',
+    img: require('../css/img/mentors/henriqueprj.jpg'),
   }
 ];
 
