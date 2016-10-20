@@ -67,18 +67,43 @@
 // Font Mixins
 
 @mixin serif-font {
-  font-family: "SF Pixelate Bold","Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  #react-mount.human & {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+  #react-mount.hacker & {
+    font-family: "SF Pixelate Bold","Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
 }
 
 @mixin script-font {
-  font-family: "SF Pixelate Bold","Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  #react-mount.human & {
+    font-family:  "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  }
+
+  #react-mount.hacker & {
+    font-family: "SF Pixelate Bold","Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  }
 }
 
 @mixin body-font {
-  font-family: "SF Pixelate Bold", "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  #react-mount.human & {
+    font-family:  "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+  #react-mount.hacker & {
+    font-family: "SF Pixelate Bold", "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
 }
 
 @mixin heading-font {
-  font-family: "SF Pixelate Bold","Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
+  //font-family:  "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  #react-mount.human & {
+    font-family:  "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+  #react-mount.hacker & {
+    font-family: "SF Pixelate Bold","Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
 }

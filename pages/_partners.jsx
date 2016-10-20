@@ -18,12 +18,22 @@ const partners = [
     ]
   },
   {
+    name: 'Patrocinadores',
+    height: 60,
+    entries: [
+      { img: require('../css/img/logos/loglab.jpg') },
+    ]
+  },
+  {
     name: 'Parceiros',
     height: 60,
     entries: [
       { img: require('../css/img/logos/goibeiras.png') },
       { img: require('../css/img/logos/sebrae.png') },
+      { img: require('../css/img/logos/webflavia.png') },
       { img: require('../css/img/logos/univag.png') },
+      { img: require('../css/img/logos/nasc.png') },
+      { img: require('../css/img/logos/braziljs.png') },
     ]
   }
 ];
@@ -46,7 +56,7 @@ module.exports = React.createClass({
                     <div className="row">
                         {partner.entries.map( (entry,i) => {
                           return (
-                            <div className={`col-md-${12 / partner.entries.length} col-sm-6`} key={i}>
+                            <div className={`col-md-${Math.max(12 / partner.entries.length,3)} col-sm-6`} key={i}>
                                 <a href="#">
                                     <img src={entry.img} className="img-responsive img-centered"
                                       style={{height: partner.height}} alt=""/>

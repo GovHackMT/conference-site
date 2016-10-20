@@ -16,12 +16,26 @@ const IndexPage = React.createClass({
       }
     },
   },
-
+  getInitialState(){
+    let el = document.getElementById('react-mount');
+    return {
+      isHuman: !el.classList.contains('hacker')
+    };
+  },
+  changeTheme(){
+    this.setState({
+      isHuman: !this.state.isHuman
+    }, () => {
+      let el = document.getElementById('react-mount');
+      el.classList.toggle('human', this.state.isHuman);
+      el.classList.toggle('hacker', !this.state.isHuman);
+    });
+  },
   render () {
     return (
       <DocumentTitle title={`${config.siteTitle} | ${IndexPage.metadata().title}`}>
-        <div>
-          <Header/>
+        <div className={this.state.isHuman ? 'human' : 'hacker'}>
+          <Header changeTheme={() => this.changeTheme()} isHuman={this.state.isHuman}/>
           <Intro/>
           <Schedule/>
           <Mentors/>
