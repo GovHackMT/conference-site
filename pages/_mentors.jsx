@@ -5,36 +5,72 @@ const mentors = [
     name: 'Joselito Júnior',
     about: 'Tampa / GDG Recife',
     img: require('../css/img/mentors/joselito.jpeg'),
+    social: [
+      { type: 'facebook', url: 'http://facebook.com/joselitojr'},
+      { type: 'twitter', url: 'http://twitter.com/joselitojunior1'},
+      { type: 'briefcase', url: 'http://tampa.works'},
+      { type: 'github', url: 'http://www.github.com/joselitojunior1' },
+    ],
   },
   {
     name: 'Wagner Marcelo',
-    about: 'Coordenador do grupo de Startups da PUC-SP e Sócio do Guia do Hacker',
+    //about: 'Coordenador do grupo de Startups da PUC-SP e Sócio do Guia do Hacker',
+    about: 'PUC-SP / Guia Hacker',
     img: require('../css/img/mentors/wagner.jpg'),
+    social: [
+      { type: 'twitter', url: 'http://www.twitter.com/wagner3m' },
+      { type: 'linkedin', url: 'http://br.linkedin.com/in/wagner3m' },
+      { type: 'facebook', url: 'http://www.facebook.com/wagner3m' }
+    ]
   },
   {
     name: 'Mahmoud Ali',
     about: 'Lambda3 / DevMT',
     img: require('../css/img/mentors/akamud.jpg'),
+    social: [
+      { type: 'twitter', url: 'http://www.twitter.com/akamud' },
+      { type: 'github', url: 'http://www.github.com/akamud' },
+      { type: 'facebook', url: 'http://www.facebook.com/iamakamud' }
+    ]
   },
   {
     name: 'Gabriel Pedro',
     about: 'RCF Inovações / DevMT',
     img: require('../css/img/mentors/gpedro.jpg'),
+    social: [
+      { type: 'twitter', url: 'http://www.twitter.com/gpedro_' },
+      { type: 'facebook', url: 'http://www.facebook.com/gpedro842' },
+      { type: 'github', url: 'http://www.github.com/gpedro' },
+    ]
   },
   {
     name: 'Dhyego Fernando',
     about: 'Código5 / DevMT',
     img: require('../css/img/mentors/dhyego.jpg'),
+    social: [
+      { type: 'twitter', url: 'https://twitter.com/dhyegofernando' },
+      { type: 'facebook', url: 'https://www.facebook.com/DhyegoFernando' },
+      { type: 'github', url: 'http://www.github.com/dhyegofernando' },
+    ]
   },
   {
     name: 'Luan Castro',
     about: 'Tribunal de Justiça de Mato Grosso',
     img: require('../css/img/mentors/castrolol.jpg'),
+    social: [
+      { type: 'twitter', url: 'https://twitter.com/castrolol' },
+      { type: 'github', url: 'https://github.com/castrolol' },
+    ]
   },
   {
     name: 'Henrique Ribeiro',
     about: 'Tribunal de Justiça de Mato Grosso',
     img: require('../css/img/mentors/henriqueprj.jpg'),
+    social: [
+      { type: 'twitter', url: 'https://twitter.com/henriqueprj' },
+      { type: 'facebook', url: 'https://www.facebook.com/henrique.ribeiro.71465572' },
+      { type: 'github', url: 'http://www.github.com/henriqueprj' },
+    ]
   }
 ];
 
@@ -64,20 +100,23 @@ module.exports = React.createClass({
                   {mentors.map( (mentor,idx) => {
                     return (
                       <div className="col-sm-4" key={idx}>
-                          <div className="team-member" style={{minHeight: 240}}>
+                          <div className="team-member">
                               <img src={mentor.img} className="img-responsive img-circle img-mentor" alt=""/>
                               <h4>{mentor.name}</h4>
-                              <p className="text-muted">{mentor.about}</p>
-                              {/*
+                              <p className="text-muted">
+                                {mentor.about}
+                              </p>
                               <ul className="list-inline social-buttons">
-                                  <li><a href="#"><i className="fa fa-twitter"></i></a>
-                                  </li>
-                                  <li><a href="#"><i className="fa fa-facebook"></i></a>
-                                  </li>
-                                  <li><a href="#"><i className="fa fa-linkedin"></i></a>
-                                  </li>
+                                  {mentor.social && mentor.social.map( social => {
+                                    return (
+                                      <li>
+                                        <a href="social" href={social.url} target="_blank">
+                                          <i className={"fa fa-"+social.type}></i>
+                                        </a>
+                                      </li>
+                                    )
+                                  })}
                               </ul>
-                              */}
                           </div>
                       </div>
                     )
