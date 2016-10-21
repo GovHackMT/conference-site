@@ -16,17 +16,22 @@ const IndexPage = React.createClass({
       }
     },
   },
-  getInitialState(){
-    let el = document.getElementById('react-mount');
+  getInitialState(){    
     return {
-      isHuman: !el.classList.contains('hacker')
+      isHuman: false
     };
+  },
+  componentDidMount(){
+    let el = window.document.getElementById('react-mount');
+    return this.setState({
+      isHuman: el && !el.classList.contains('hacker')
+    });
   },
   changeTheme(){
     this.setState({
       isHuman: !this.state.isHuman
     }, () => {
-      let el = document.getElementById('react-mount');
+      let el = window.document.getElementById('react-mount');
       el.classList.toggle('human', this.state.isHuman);
       el.classList.toggle('hacker', !this.state.isHuman);
     });

@@ -90,6 +90,13 @@ module.exports = React.createClass({
                           </Link>
                         </li>
                         <li>
+                          <Link
+                            to={prefixLink('/regulation/')}
+                            onClick={() => this.closeMenu()}>
+                            Regulamento
+                          </Link>
+                        </li>
+                        <li>
                           <a href="https://github.com/GovHackMT" target="_blank">
                             <i className="fa fa-github"></i>
                             Github
