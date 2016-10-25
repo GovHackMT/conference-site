@@ -34,6 +34,10 @@ const partners = [
         img: require('../css/img/logos/loglab.jpg'),
         url: 'https://loglab.online'
       },
+      {
+        img: require('../css/img/logos/rcf.png'),
+        url: 'http://rcfinovacoes.com.br/'
+      },
     ]
   },
   {

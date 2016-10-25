@@ -7,6 +7,7 @@ import Intro from './_intro';
 import Schedule from './_schedule';
 import Mentors from './_mentors';
 import Partners from './_partners';
+//import Organizers from './_organizers';
 
 const IndexPage = React.createClass({
   statics: {
@@ -16,7 +17,7 @@ const IndexPage = React.createClass({
       }
     },
   },
-  getInitialState(){    
+  getInitialState(){
     return {
       isHuman: false
     };
@@ -45,6 +46,7 @@ const IndexPage = React.createClass({
           <Schedule/>
           <Mentors/>
           <Partners/>
+          {/*<Organizers/> */}
           <section id="contact">
               <div className="container">
                   <div className="row">

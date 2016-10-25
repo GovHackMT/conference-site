@@ -24,6 +24,17 @@ const mentors = [
     ]
   },
   {
+    name: 'Marcelo Siqueira',
+    //about: 'Coordenador do grupo de Startups da PUC-SP e Sócio do Guia do Hacker',
+    about: 'BonoBee / Hackathon.me',
+    img: require('../css/img/mentors/marcelo-siqueira.jpeg'),
+    social: [
+      { type: 'twitter', url: 'http://twitter.com/marcelosiqueira' },
+      { type: 'facebook', url: 'https://www.facebook.com/marsiqueira' },
+      { type: 'linkedin', url: 'https://www.linkedin.com/in/marsiqueira' }
+    ]
+  },
+  {
     name: 'Mahmoud Ali',
     about: 'Lambda3 / DevMT',
     img: require('../css/img/mentors/akamud.jpg'),
