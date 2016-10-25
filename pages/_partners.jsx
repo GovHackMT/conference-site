@@ -9,6 +9,16 @@ const partners = [
     ]
   },
   {
+    name: 'Patrocinadores Master',
+    height: 100,
+    entries: [
+      {
+        img: require('../css/img/logos/univag.png'),
+        url: 'http://univag.com.br/'
+      },
+    ]
+  },
+  {
     name: 'Catalisadores',
     height: 100,
     entries: [
@@ -55,10 +65,6 @@ const partners = [
       {
         img: require('../css/img/logos/webflavia.png'),
         url: 'http://webflavia.com.br/'
-      },
-      {
-        img: require('../css/img/logos/univag.png'),
-        url: 'http://univag.com.br/'
       },
       {
         img: require('../css/img/logos/nasc.png'),
