@@ -24,7 +24,7 @@ module.exports = React.createClass({
                       <h3 className="section-subheading text-muted">
                         O hackathon é idealizado pela comunidade de desenvolvedores
                         de Mato Grosso e junto do Governo do
-                        Estado, através da Empresa Matogrossense de Tecnologia (MTI),
+                        Estado, através da Empresa Mato-grossense de Tecnologia da Informação(MTI),
                         Gabinete de Assuntos Estratégicos (GAE) e da Secretaria de
                         Estado de Planejamento.
                       </h3>

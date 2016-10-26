@@ -59,6 +59,10 @@ const partners = [
         url: 'http://goiabeirasshopping.com.br/'
       },
       {
+        img: require('../css/img/logos/ms.png'),
+        url: 'http://microsoft.com.br/'
+      },
+      {
         img: require('../css/img/logos/sebrae.png'),
         url: 'http://www.sebrae.com.br/sites/PortalSebrae/ufs/mt?codUf=12'
       },
