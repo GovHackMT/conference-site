@@ -120,7 +120,7 @@ module.exports = React.createClass({
                               <ul className="list-inline social-buttons">
                                   {mentor.social && mentor.social.map( social => {
                                     return (
-                                      <li>
+                                      <li key={idx+"_"+social.type}>
                                         <a href="social" href={social.url} target="_blank">
                                           <i className={"fa fa-"+social.type}></i>
                                         </a>

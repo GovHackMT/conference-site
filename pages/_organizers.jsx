@@ -76,7 +76,7 @@ module.exports = React.createClass({
                               <ul className="list-inline social-buttons">
                                   {org.social && org.social.map( social => {
                                     return (
-                                      <li>
+                                      <li key={idx+"_"+social.type}>
                                         <a href="social" href={social.url} target="_blank">
                                           <i className={"fa fa-"+social.type}></i>
                                         </a>

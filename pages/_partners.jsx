@@ -42,7 +42,7 @@ const partners = [
     entries: [
       {
         img: require('../css/img/logos/loglab.jpg'),
-        url: 'https://loglab.online'
+        url: 'http://loglab.online'
       },
       {
         img: require('../css/img/logos/rcf.png'),
