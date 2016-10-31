@@ -82,6 +82,15 @@ const mentors = [
       { type: 'facebook', url: 'https://www.facebook.com/henrique.ribeiro.71465572' },
       { type: 'github', url: 'http://www.github.com/henriqueprj' },
     ]
+  },
+  {
+  	name: 'William Chitto',
+  	about: 'MTI / RCF Inovações',
+  	img: require('../css/img/mentors/william-chitto.jpg'),
+  	social: [
+      { type: 'facebook', url: 'https://www.facebook.com/william.cspinto' },
+      { type: 'github', url: 'https://github.com/williamchitto' },
+  	]
   }
 ];
 
