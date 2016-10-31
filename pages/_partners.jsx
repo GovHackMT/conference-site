@@ -37,12 +37,16 @@ const partners = [
     ]
   },
   {
-    name: 'Patrocinadores',
+    name: 'Patrocinadores Ouro',
     height: 60,
     entries: [
       {
         img: require('../css/img/logos/loglab.jpg'),
         url: 'http://loglab.online'
+      },
+      {
+        img: require('../css/img/logos/connect.png'),
+        url: 'http://www.connect.com.vc/'
       },
       {
         img: require('../css/img/logos/rcf.png'),
@@ -69,6 +73,14 @@ const partners = [
       {
         img: require('../css/img/logos/webflavia.png'),
         url: 'http://webflavia.com.br/'
+      },
+      {
+        img: require('../css/img/logos/dolce-aroma.png'),
+        url: 'http://dolcearomacafe.com.br/'
+      },
+      {
+        img: require('../css/img/logos/titania.png'),
+        url: 'http://www.titania.com.br/'
       },
       {
         img: require('../css/img/logos/nasc.png'),
