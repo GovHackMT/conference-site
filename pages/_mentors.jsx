@@ -91,6 +91,16 @@ const mentors = [
       { type: 'facebook', url: 'https://www.facebook.com/william.cspinto' },
       { type: 'github', url: 'https://github.com/williamchitto' },
   	]
+  },
+  {
+    name: 'Leandro Silva Ferreira',
+    about: 'MT Empregos',
+    img: require('../css/img/mentors/leandrosilvaferreira.jpg'),
+    social: [
+      { type: 'facebook', url: 'https://www.facebook.com/leandro.ferreira.5891' },
+      { type: 'briefcase', url: 'http://www.mtempregos.com.br' },
+      { type: 'github', url: 'https://github.com/leandrosilvaferreira' },
+    ]
   }
 ];
 
