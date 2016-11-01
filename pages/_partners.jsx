@@ -16,6 +16,14 @@ const partners = [
         img: require('../css/img/logos/univag.png'),
         url: 'http://univag.com.br/'
       },
+      {
+        img: require('../css/img/logos/senar.png'),
+        url: 'http://www.senar.org.br'
+      },
+      {
+        img: require('../css/img/logos/agrihub.png'),
+        url: 'http://agrihub.org.br'
+      },
     ]
   },
   {
@@ -81,6 +89,10 @@ const partners = [
       {
         img: require('../css/img/logos/titania.png'),
         url: 'http://www.titania.com.br/'
+      },
+      {
+        img: require('../css/img/logos/confianca.png'),
+        url: 'http://confianca.tur.br'
       },
       {
         img: require('../css/img/logos/nasc.png'),
