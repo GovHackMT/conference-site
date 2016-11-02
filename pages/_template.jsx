@@ -66,15 +66,6 @@ module.exports = React.createClass({
                         <li className="hidden">
                             <a href="#page-top"></a>
                         </li>
-                        {/*
-                        <li>
-                          <Link
-                            to={prefixLink('/docs/')}
-                            onClick={() => this.closeMenu()}>
-                            Guia do Desenvolvedor
-                          </Link>
-                        </li>
-                        */}
                         <li>
                           <Link
                             to={prefixLink('/rules/')}
@@ -94,6 +85,13 @@ module.exports = React.createClass({
                             to={prefixLink('/regulation/')}
                             onClick={() => this.closeMenu()}>
                             Regulamento
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            to={prefixLink('/docs/')}
+                            onClick={() => this.closeMenu()}>
+                            Base de Dados
                           </Link>
                         </li>
                         <li>

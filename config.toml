@@ -4,8 +4,11 @@ linkPrefix = "/"
 docPages = [
   "/docs/",
   "/docs/saude/",
-  "/docs/contratos/",
+  "/docs/adm-publica/",
   "/docs/educacao/",
   "/docs/seguranca-publica/",
-  "/docs/censo/",
+  "/docs/info-social/",
+  "/docs/comercio/",
+  #"/docs/contratos/",
+  "/docs/outros/"
 ]
