@@ -101,7 +101,42 @@ const mentors = [
       { type: 'briefcase', url: 'http://www.mtempregos.com.br' },
       { type: 'github', url: 'https://github.com/leandrosilvaferreira' },
     ]
+  },
+  {
+    name: 'Victor Hugo',
+    about: 'Amaggi / DevMT',
+    img: require('../css/img/mentors/victor.jpg'),
+    social: [
+      { type: 'facebook', url: 'https://www.facebook.com/profile.php?id=639629730' }
+    ]
+  },
+  {
+    name: 'Carlos Pirovani Neto Netto',
+    about: 'CEO EstudaVest',
+    img: require('../css/img/mentors/carlos.jpg'),
+    social: [
+      { type: 'facebook', url: 'https://www.facebook.com/carlospirovani.netonetto' },
+      { type: 'briefcase', url: 'http://www.estudavest.com.br' },
+    ]
+  },
+  /* ESPERANDO CONFIRMAÇÃO  
+  {
+    name: 'Abraão Nazário',
+    about: 'FATEC/SENAI',
+    img: require('../css/img/mentors/abraao.jpg'),
+    social: [
+      { type: 'facebook', url: 'https://www.facebook.com/abraao.nazario' }
+    ]
+  },
+  {
+    name: 'Allan Gonçalves de Oliveira',
+    about: 'UFMT',
+    img: require('../css/img/mentors/allan.jpg'),
+    social: [
+      { type: 'facebook', url: 'https://www.facebook.com/allan.goncalvesdeoliveira' }
+    ]
   }
+  */
 ];
 
 let dummy = {

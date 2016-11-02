@@ -7,19 +7,24 @@ const entries = [
       { time: 'Primeiro dia de evento', name: '04/11 Sexta'},
       { time: '19:00' , name: 'Credenciamento e Coffe Break' },
       { time: '20:00' , name: 'Abertura', desc: 'Cerimonia de Abertura e Talks dos patrocinadores' },
-      { time: '20:20' , name: 'Painel de desafios', desc: 'Desafios apresentados por órgãos públicos locais.' },
-      { time: '20:50' , name: 'Apresentação das Ferramentas', desc: 'APIs, databases, github e demais ferramentas disponíveis aos participantes.' },
-      { time: '21:00' , name: 'Formação das Equipes' },
-      { time: '21:30' , name: 'Palestra' },
+      { time: '20:30' , name: 'Painel de desafios', desc: 'Desafios apresentados por órgãos públicos locais.' },
+      { time: '21:00' , name: 'Apresentação das Ferramentas', desc: 'APIs, databases, github e demais ferramentas disponíveis aos participantes.' },
+      { time: '21:10' , name: 'Formação das Equipes' },
     ],
   },
   {
     name: 'Segundo dia',
     entries: [
       { time: 'Segundo dia de evento', name: '05/11 Sábado' },
-      { time: '08:00' , name: 'Abertura com palestras' },
-      { time: '08:30' , name: 'Codificação Begins', desc: 'Start no Cronômetro' },
+      { time: '08:00' , name: 'Abertura', desc: 'Abertura com Joselito Júnior contando sua experiência em Hackathons' },
+      { time: '08:30' , name: 'Palestra Master AGRIHUB', desc: 'Heygler de Paula - AgriHub' },
+      { time: '09:00' , name: 'Codificação Begins', desc: 'Start no Cronômetro' },
+      { time: '09:30 às 10:30' , name: 'Sessões de Massagem' },
+      { time: '10:30 às 11:30' , name: 'Sessões de Massagem' },
       { time: '13:00' , name: 'Almoço' },
+      { time: '14:00 às 15:00' , name: 'Sessões de Massagem' },
+      { time: '15:00 às 16:00' , name: 'Sessões de Massagem' },
+      { time: '18:00' , name: 'Palestra -  Economia Criativa e o Mercado de TI', desc: 'Marcelo Siqueira' },
       { time: '19:00' , name: 'Jantar' },
     ],
   },
@@ -28,10 +33,17 @@ const entries = [
     entries: [
       { time: 'Terceiro dia de evento', name: '06/11 Domingo' },
       { time: '8:00', name: 'Breakfast of Champions' },
-      { time: '12:00', name: 'Codificação Termina', desc: 'Stop no cronômetro e submissões dos códigos ao GitHub do evento!' },
+      { time: '09:30 às 10:30' , name: 'Sessões de Massagem' },
+      { time: '10:30 às 11:30' , name: 'Sessões de Massagem' },
+      { time: '12:00', name: 'Pré-Demo', desc: 'Uma apresentação para um conjunto de mentores para se preparar para a última apresentação.' },
       { time: '13:00', name: 'Almoço' },
-      { time: '14:00', name: 'Apresentação das Demos', desc: 'Demos apenas / Sem conjuntos de slides se a sua demo não funcionar,apresentar o código e mostrar onde ficou parado. Trata-se de mostrar o que você aprendeu e não sobre o lançamento de uma idéia' },
-      { time: '16:00', name: 'Prizathon!', desc: 'Vencedores são anunciados.' }
+      { time: '14:00 às 15:00' , name: 'Sessões de Massagem' },
+      { time: '15:00 às 16:00' , name: 'Sessões de Massagem' },
+      { time: '16:45', name: 'Codificação Termina', desc: 'Stop no cronômetro e submissões dos códigos ao GitHub do evento!' },
+      { time: '17:00', name: 'Apresentação das Demos', desc: 'Demos apenas / Slides são opcionais, se a sua demo não funcionar, apresentar o código e mostrar onde ficou parado. Trata-se de mostrar o que você aprendeu e não sobre o lançamento de uma idéia' },
+      { time: '18:30' , name: 'Palestra Master UNIVAG' },
+      { time: '19:00' , name: 'Palestra Master SENAR' },
+      { time: '20:00', name: 'Prizathon!', desc: 'Vencedores são anunciados.' }
     ]
   }
 ];
