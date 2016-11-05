@@ -119,7 +119,6 @@ const mentors = [
       { type: 'briefcase', url: 'http://www.estudavest.com.br' },
     ]
   },
-  /* ESPERANDO CONFIRMAÇÃO  
   {
     name: 'Abraão Nazário',
     about: 'FATEC/SENAI',
@@ -129,14 +128,13 @@ const mentors = [
     ]
   },
   {
-    name: 'Allan Gonçalves de Oliveira',
+    name: 'Jivago Medeiros',
     about: 'UFMT',
-    img: require('../css/img/mentors/allan.jpg'),
+    img: require('../css/img/mentors/jivago.jpg'),
     social: [
-      { type: 'facebook', url: 'https://www.facebook.com/allan.goncalvesdeoliveira' }
+      { type: 'facebook', url: 'https://www.facebook.com/jivagomr' }
     ]
   }
-  */
 ];
 
 let dummy = {

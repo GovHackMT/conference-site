@@ -19,8 +19,10 @@ const entries = [
       { time: '08:00' , name: 'Abertura', desc: 'Abertura com Joselito Júnior contando sua experiência em Hackathons' },
       { time: '08:30' , name: 'Palestra Master AGRIHUB', desc: 'Heygler de Paula - AgriHub' },
       { time: '09:00' , name: 'Codificação Begins', desc: 'Start no Cronômetro' },
+      /*
       { time: '09:30 às 10:30' , name: 'Sessões de Massagem' },
       { time: '10:30 às 11:30' , name: 'Sessões de Massagem' },
+      */
       { time: '13:00' , name: 'Almoço' },
       { time: '14:00 às 15:00' , name: 'Sessões de Massagem' },
       { time: '15:00 às 16:00' , name: 'Sessões de Massagem' },
@@ -33,8 +35,10 @@ const entries = [
     entries: [
       { time: 'Terceiro dia de evento', name: '06/11 Domingo' },
       { time: '8:00', name: 'Breakfast of Champions' },
+      /*
       { time: '09:30 às 10:30' , name: 'Sessões de Massagem' },
       { time: '10:30 às 11:30' , name: 'Sessões de Massagem' },
+      */
       { time: '12:00', name: 'Pré-Demo', desc: 'Uma apresentação para um conjunto de mentores para se preparar para a última apresentação.' },
       { time: '13:00', name: 'Almoço' },
       { time: '14:00 às 15:00' , name: 'Sessões de Massagem' },

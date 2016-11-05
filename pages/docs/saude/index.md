@@ -14,3 +14,6 @@ https://github.com/AppCivicoPlataforma/AppCivico/blob/master/EstabelecimentosAPI
 
 #### Banco de dados do DATASUS
 http://www2.datasus.gov.br/DATASUS/index.php?area=02
+
+#### Dados da SES
+https://drive.google.com/drive/u/0/folders/0B0w5dnm9bD8sNllwOVlXbkh0clU

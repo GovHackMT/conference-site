@@ -91,7 +91,7 @@ module.exports = React.createClass({
                           <Link
                             to={prefixLink('/docs/')}
                             onClick={() => this.closeMenu()}>
-                            Base de Dados
+                            Guia do Dev
                           </Link>
                         </li>
                         <li>
