@@ -13,3 +13,7 @@ Temos APIs públicas, bases de dados abertas e ferramentas opensource que podem 
 O cadastro das equipes deve ser feito no link a seguir:
 
 * [Cadastre sua equipe aqui](https://goo.gl/forms/wlvfQYknc3YWV8wQ2)
+
+#### Pontos de Avaliação
+
+* [Veja aqui os Pontos de Avaliação](https://drive.google.com/open?id=0B0w5dnm9bD8sdzg3TGN0Y3ZuSW8)
